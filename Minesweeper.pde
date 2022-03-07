@@ -30,7 +30,7 @@ public void setMines()
    int randomC = (int)(Math.random() * NUM_COLS);
      if(!mines.contains(buttons[randomR][randomC])){
          mines.add(buttons[randomR][randomC]);
-         System.out.println( randomR + "," + randomC);
+         
      }
 }
 
@@ -189,3 +189,5 @@ public class MSButton
         return flagged;
     }
 }
+
+
